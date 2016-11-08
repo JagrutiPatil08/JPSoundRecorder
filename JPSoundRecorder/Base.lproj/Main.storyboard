@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Pp-mK-O05">
+                                <rect key="frame" x="210" y="490" width="180" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pl-rO-IFr">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="gEc-E6-otQ"/>
+                                            <constraint firstAttribute="width" constant="60" id="z0E-sK-nPa"/>
+                                        </constraints>
+                                        <state key="normal" image="record">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="recordAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fC4-9T-yfV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOY-m3-dXV">
+                                        <rect key="frame" x="60" y="0.0" width="60" height="60"/>
+                                        <state key="normal" image="play">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HQc-9e-Arb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEm-2a-NsJ">
+                                        <rect key="frame" x="120" y="0.0" width="60" height="60"/>
+                                        <state key="normal" image="stop">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="stopAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SyU-8R-Kqe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="bOY-m3-dXV" firstAttribute="width" secondItem="6pl-rO-IFr" secondAttribute="width" id="3Sp-YI-eSM"/>
+                                    <constraint firstItem="EEm-2a-NsJ" firstAttribute="height" secondItem="6pl-rO-IFr" secondAttribute="height" id="5BO-tS-lwg"/>
+                                    <constraint firstItem="bOY-m3-dXV" firstAttribute="height" secondItem="6pl-rO-IFr" secondAttribute="height" id="7K4-LT-jJP"/>
+                                    <constraint firstItem="EEm-2a-NsJ" firstAttribute="width" secondItem="6pl-rO-IFr" secondAttribute="width" id="Uxc-pX-WmJ"/>
+                                </constraints>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img" translatesAutoresizingMaskIntoConstraints="NO" id="NmG-T0-NNh">
+                                <rect key="frame" x="175" y="120" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="KNg-qQ-NU8"/>
+                                    <constraint firstAttribute="width" secondItem="NmG-T0-NNh" secondAttribute="height" multiplier="1:1" id="yBH-f7-rof"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NmG-T0-NNh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="0gk-gd-XZ6"/>
+                            <constraint firstItem="NmG-T0-NNh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Sf-Ht-pRj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6Pp-mK-O05" secondAttribute="bottom" constant="50" id="Ra4-mi-v42"/>
+                            <constraint firstItem="6Pp-mK-O05" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TwM-Bd-t9U"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageview" destination="NmG-T0-NNh" id="JLr-aZ-IVU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img" width="148" height="183"/>
+        <image name="play" width="257" height="254"/>
+        <image name="record" width="132" height="233"/>
+        <image name="stop" width="250" height="239"/>
+    </resources>
+</document>

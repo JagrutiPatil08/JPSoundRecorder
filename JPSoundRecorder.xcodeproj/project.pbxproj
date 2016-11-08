@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32577CA61DD1785B00CCA02D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32577CA51DD1785B00CCA02D /* main.m */; };
+		32577CA91DD1785B00CCA02D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32577CA81DD1785B00CCA02D /* AppDelegate.m */; };
+		32577CAC1DD1785C00CCA02D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32577CAB1DD1785C00CCA02D /* ViewController.m */; };
+		32577CAF1DD1785F00CCA02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32577CAD1DD1785F00CCA02D /* Main.storyboard */; };
+		32577CB11DD1785F00CCA02D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32577CB01DD1785F00CCA02D /* Assets.xcassets */; };
+		32577CB41DD1785F00CCA02D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32577CB21DD1785F00CCA02D /* LaunchScreen.storyboard */; };
+		32577CBC1DD17AA400CCA02D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32577CBB1DD17AA400CCA02D /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32577CA11DD1785B00CCA02D /* JPSoundRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPSoundRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32577CA51DD1785B00CCA02D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32577CA71DD1785B00CCA02D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32577CA81DD1785B00CCA02D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32577CAA1DD1785B00CCA02D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32577CAB1DD1785C00CCA02D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32577CAE1DD1785F00CCA02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32577CB01DD1785F00CCA02D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32577CB31DD1785F00CCA02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32577CB51DD1785F00CCA02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32577CBB1DD17AA400CCA02D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32577C9E1DD1785B00CCA02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32577CBC1DD17AA400CCA02D /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32577C981DD1785B00CCA02D = {
+			isa = PBXGroup;
+			children = (
+				32577CBB1DD17AA400CCA02D /* AVFoundation.framework */,
+				32577CA31DD1785B00CCA02D /* JPSoundRecorder */,
+				32577CA21DD1785B00CCA02D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32577CA21DD1785B00CCA02D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32577CA11DD1785B00CCA02D /* JPSoundRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32577CA31DD1785B00CCA02D /* JPSoundRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				32577CA71DD1785B00CCA02D /* AppDelegate.h */,
+				32577CA81DD1785B00CCA02D /* AppDelegate.m */,
+				32577CAA1DD1785B00CCA02D /* ViewController.h */,
+				32577CAB1DD1785C00CCA02D /* ViewController.m */,
+				32577CAD1DD1785F00CCA02D /* Main.storyboard */,
+				32577CB01DD1785F00CCA02D /* Assets.xcassets */,
+				32577CB21DD1785F00CCA02D /* LaunchScreen.storyboard */,
+				32577CB51DD1785F00CCA02D /* Info.plist */,
+				32577CA41DD1785B00CCA02D /* Supporting Files */,
+			);
+			path = JPSoundRecorder;
+			sourceTree = "<group>";
+		};
+		32577CA41DD1785B00CCA02D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32577CA51DD1785B00CCA02D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32577CA01DD1785B00CCA02D /* JPSoundRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32577CB81DD1785F00CCA02D /* Build configuration list for PBXNativeTarget "JPSoundRecorder" */;
+			buildPhases = (
+				32577C9D1DD1785B00CCA02D /* Sources */,
+				32577C9E1DD1785B00CCA02D /* Frameworks */,
+				32577C9F1DD1785B00CCA02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPSoundRecorder;
+			productName = JPSoundRecorder;
+			productReference = 32577CA11DD1785B00CCA02D /* JPSoundRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32577C991DD1785B00CCA02D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JagrutiPatil;
+				TargetAttributes = {
+					32577CA01DD1785B00CCA02D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 32577C9C1DD1785B00CCA02D /* Build configuration list for PBXProject "JPSoundRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32577C981DD1785B00CCA02D;
+			productRefGroup = 32577CA21DD1785B00CCA02D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32577CA01DD1785B00CCA02D /* JPSoundRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32577C9F1DD1785B00CCA02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32577CB41DD1785F00CCA02D /* LaunchScreen.storyboard in Resources */,
+				32577CB11DD1785F00CCA02D /* Assets.xcassets in Resources */,
+				32577CAF1DD1785F00CCA02D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32577C9D1DD1785B00CCA02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32577CAC1DD1785C00CCA02D /* ViewController.m in Sources */,
+				32577CA91DD1785B00CCA02D /* AppDelegate.m in Sources */,
+				32577CA61DD1785B00CCA02D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32577CAD1DD1785F00CCA02D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32577CAE1DD1785F00CCA02D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32577CB21DD1785F00CCA02D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32577CB31DD1785F00CCA02D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32577CB61DD1785F00CCA02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32577CB71DD1785F00CCA02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32577CB91DD1785F00CCA02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPSoundRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JagrutiPatil.JPSoundRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32577CBA1DD1785F00CCA02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPSoundRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JagrutiPatil.JPSoundRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32577C9C1DD1785B00CCA02D /* Build configuration list for PBXProject "JPSoundRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32577CB61DD1785F00CCA02D /* Debug */,
+				32577CB71DD1785F00CCA02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32577CB81DD1785F00CCA02D /* Build configuration list for PBXNativeTarget "JPSoundRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32577CB91DD1785F00CCA02D /* Debug */,
+				32577CBA1DD1785F00CCA02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32577C991DD1785B00CCA02D /* Project object */;
+}
